@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+    <table align="center" cellspacing="0" cellpadding="10" class="tabelku" >
+        <thead>
+            <tr>
+                <th colspan="4">ARITMATIKA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="teksNsatu">Nilai 1</th>
+                <td><input type="number" id="n1" value="0">
+                <td><button id="tambah" onclick="tambah()">+</button>
+                <td><button id="kurang">-</button>
+            </tr>
+            <tr>
+                <th id="teksNdua">Nilai 2</th>
+                <td><input type="number" id="n2" value="0"></td>
+                <td><button id="kali">X</button></td>
+                <td><button id="bagi">/</button></td>
+            </tr>
+            <tr>
+                <th>Hasil</th>
+                <td><input type="text" id="hasil" placeholder="HASIL" readonly </td>
+                <td><button id="modulus" >%</button></td>
+                <td><button id="pangkat">X<sup>n</sup></button></td>
+            </tr>
+        </tbody>
+
+    </table>
+    </div>
+<script src= "script.js"></script>
+</body>
